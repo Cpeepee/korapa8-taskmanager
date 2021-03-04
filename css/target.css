@@ -1,0 +1,259 @@
+/* @font-face{font-family: thePacificoFont;src: url('./fonts/pacifico/Pacifico.ttf');}
+@font-face{font-family: theBreakpassFont;src: url('./fonts/breakpass/BreakpassDemoRegular.ttf');}
+@font-face{font-family:theEuropeundergroundFont;src: url('./fonts/europe-underground/EuropeUnderground_black.ttf');}
+@font-face{font-family:theKissboomFont;src: url('./fonts/kiss-boom/Kiss Boom.ttf');}
+@font-face { font-family:theMotionpictureFont; src: url('./fonts/motion-picture/MotionPicture_PersonalUseOnly.ttf');} */
+@font-face {font-family:theRemachinescriptFont;src: url('./fonts/remachine-script/RemachineScript_Personal_Use.ttf');}
+.main_base_form
+{
+  background-color: transparent;
+  /* margin: auto; */
+  position: absolute;
+  width: 91.50%;
+  height: 75%;
+  border-radius: 5px;
+  margin-left: 6%;
+  margin-top: 130px;
+  /* border:3px solid skyblue; */
+}
+
+.manage_bar
+{
+  background-color: #2A2A2A;
+  margin: auto;
+  position: relative;
+  top: 125px;
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.button_style {position: absolute;background-color: transparent;color: #80C5D6;text-align: center;border: 0.1px solid #80C5D6; /* Green */width: 100px;height: 95%;}
+.button_style:hover {background-color: #80C5D6; /* Green */color: white;cursor: pointer;}
+.style_text_button {text-align: center;}
+.current_date_is{margin-left:10px;font-weight: bold;position:absolute;float:left;left:0px;color:#4F81BC;}
+.current_date_is:hover{color:white;}
+.create_modify_inputs_on_target
+{
+  background-color: #2A2A2A;
+  margin: auto;
+  position: relative;
+  top: 135px;
+  width: 55%;
+  height: 150px;
+  border-radius: 5px;
+}
+#textarea_for_note_task_on_target
+{
+  background-color: transparent;
+  color:#80C5D6;
+  border:0.1px solid #80C5D6;
+  width: 70%;
+  height: 85px;
+  border-radius: 5px;
+  margin-left: 95px;
+  margin-top: 10px;
+}
+.style_inputs_under_target_button
+{
+  background-color: transparent;
+  color:#80C5D6;
+  border:0.1px solid #80C5D6;
+  width: 200px;
+  height: 110%;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.style_lable_add_target
+{
+  color:white;font-size: 25px;
+  margin-left: 15px;
+}
+
+.style_delete_on_target
+{
+  position: relative;
+  width: 40%;
+  height:50px;
+  background-color: #2A2A2A;
+  margin: auto;
+  top: 145px;
+}
+
+
+.button_style_save_on_target {position: absolute;background-color: transparent;font-weight: bold;color: lightgreen;text-align: center;border: 0.1px solid lightgreen; margin-top: 15px; width: 200px;height: 50%;right:0%;border-radius:30px;}
+.button_style_save_on_target:hover {background-color: lightgreen;color: white;cursor: pointer;}
+
+
+.button_style_delete_on_target {position: absolute;background-color: transparent;font-weight: bold;color: #f46666;text-align: center;border: 0.1px solid #f46666; width: 125px;height: 95%;right:0%;border-radius:30px;}
+.button_style_delete_on_target:hover {background-color: #f46666;color: white;cursor: pointer;}
+
+.slider_target {-webkit-appearance: none;width: 225px;height: 15px;border-radius: 5px;background: #80C5D6;outline: none;opacity: 0.7;-webkit-transition: .2s;transition: opacity .2s;}
+.slider_target::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;width: 25px;height: 25px;border-radius: 50%;background: #80C5D6;cursor: pointer;}
+.slider_target::-moz-range-thumb {width: 25px;height: 25px;border-radius: 50%;background: #80C5D6;cursor: pointer;}
+
+
+.input_day_number_on_target
+{
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height:30px;
+  margin-top: 242px;
+  border: 1px solid transparent;
+  border-radius:10px;
+  background-color: #2f3030;
+  opacity: 1;
+  color:white;
+}
+
+.input_hour_number_on_target
+{
+  position: absolute;
+  margin: auto;
+  width: 101.5px;
+  height:30px;
+  margin-top: 290px;
+  border: 1px solid transparent;
+  border-radius:10px;
+  background-color: #2f3030;
+  opacity: 1;
+  color:white;
+  margin-left:90px;
+}
+
+
+.button_create_new_target_and_task_long
+{
+  background-color:lightgreen;
+  border-radius: 30px;
+  border: 1px solid lightgreen;
+  position:absolute;
+  width: 150px;
+  height: 30px;
+}
+
+.button_create_new_target_and_task_long:hover
+{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+#input_time_for_new_item_target
+{
+  width:100px;
+  height:100px;
+  background-color:red;
+}
+
+
+
+
+
+
+#toolbar_target
+{
+  background-color: #1A1C1D;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right:0%;
+  bottom: 0;/*8.50% 80px*/
+  margin-top: 25%;
+  border: 1px solid #63605c;/*#B0A89C;#3A3F41*/
+}
+
+#toolbar_create_only_target
+{
+  background-color: #1A1C1D;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right:0%;
+  bottom: 60px;/*8.50% 140px*/
+  border: 1px solid #63605c;/*#B0A89C;#3A3F41*/
+}
+
+#delete_the_target
+{
+  background-color: #1A1C1D;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right:0%;
+  bottom: 120px;/*8.50% 200px*/
+  border: 1px solid #63605c;/*#B0A89C;#3A3F41*/
+}
+
+#button_create_only_target_from_only_target
+{
+  background-color:transparent;
+  border-radius: 20px;
+  border: 1px solid lightgreen;
+  color: lightgreen;
+  position:absolute;
+  bottom:30px;
+  left:145px;
+  width: 130px;
+  height:40px;
+}
+#button_create_only_target_from_only_target:hover
+{
+  cursor:pointer;
+  background-color:green;
+}
+
+.line_toolbar_only_target
+{
+  width: 99%;
+  border: 1px dashed transparent;
+  margin-top: -4px;
+}
+
+.style_input_range_start_and_end_day_on_quick_task_target
+{
+  position:absolute;
+  width:110px;
+}
+
+.LabelStartEndDayQuickOnTarget
+{
+  color:white;
+  position: absolute;
+}
+#input_hour_on_quick_target_and_task
+{
+  position: absolute;
+}
+/* @media all and (max-width: 28em){
+    .ui-grid-a .ui-block-a,
+    .ui-grid-a .ui-block-b {
+        width: 100%;
+        clear: left;
+    }
+} */
+
+
+
+.style_button_clear_item_new_quick_target_task
+{
+  background-color:transparent;
+  border-radius: 20px;
+  border: 1px solid #ebb7b2;
+  color: #ebb7b2;
+  position:absolute;
+  bottom:30px;
+  right:30px;
+  width: 130px;
+  height:40px;
+}
+
+.style_button_clear_item_new_quick_target_task:hover {cursor:pointer;background-color:red;}

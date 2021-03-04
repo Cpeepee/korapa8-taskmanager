@@ -1,0 +1,87 @@
+.nomargin
+{
+  margin: 0px;
+}
+.noselect
+{
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+
+/*menu part starts*/
+
+.menu_style
+{
+  background-color: #1A1C1D;
+  position: fixed;
+  width: 58px;
+  height: 100%;
+  border: solid 1.5px #3A3F41;
+}
+
+#item_0
+{
+  margin-top: 15px;
+}
+
+.menu_icon
+{
+  width: 32px;
+  height: 30px;
+  margin: 15px 12px;
+  margin-right: 100px;
+}
+
+.menu_item
+{
+  width: 100%;
+  height: 60px;
+  background-color: #1A1C1D;
+}
+.menu_item_text
+{
+  position: absolute;
+  color: #B0A89C;
+  margin-left: 60px;
+  visibility: hidden;
+}
+#item_logout
+{
+  position: absolute;
+  bottom: 0px;
+}
+
+/* menu part ends*/
+
+
+
+/* z_index part starts*/
+.zindex0
+{
+  z-index: 0;
+}
+.zindex1
+{
+  /* dashboard items*/
+  z-index: 1;
+}
+.zindex2
+{
+  /* menu_style */
+  z-index: 2;
+}
+.zindex3
+{
+  /* item_menu */
+  z-index: 3;
+}
+.zindex4
+{
+  z-index: 4;
+}
+/* z_index part ends*/

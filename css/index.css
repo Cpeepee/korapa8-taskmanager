@@ -1,0 +1,40 @@
+body {background-color: #191B1C;margin: 0px;
+  font-size: 15px;
+}
+
+.style_header_text {color:#B0A89C;margin-left:90px;margin-top:30px;position:absolute;}
+.style_header_date {color:#B0A89C;margin-right:10px;margin-top:30px;position:absolute;right:0px;}
+.style_status_total {color: white;right: 15px;top: 1px;position: absolute;float: right;}
+.style_status_star0 {color: white;right: 15px;top: 45px;position: absolute;float: right;width: 16px;height: 16px;}
+.style_status_star1 {color: white;right: 15px;top: 60px;position: absolute;float: right;width: 16px;height: 16px;}
+.style_status_star2 {color: white;right: 15px;top: 75px;position: absolute;float: right;width: 16px;height: 16px;}
+.style_status_star3 {color: white;right: 15px;top: 90px;position: absolute;float: right;width: 16px;height: 16px;}
+.style_status_star4 {color: white;right: 15px;top: 105px;position: absolute;float: right;width: 16px;height: 16px;}
+.style_status_divs {position: relative;float: left;width: 330px;height: 130px;margin-left: 50px;margin-top: 100px;border-radius: 5px;}
+#targets_status {background-color: #A5352C;margin-left: 100px;}
+#tasks_status {background-color: #248D58;}
+#projects_status {background-color: #394B64;}
+#chart_status {width: 1090px; height: 330px;  position: relative;  float: left; margin-top: 50px; background-color: #4a4f60; margin-left: 100px;border-radius: 10px;}
+#layer_piechart {width: 140px;height: 140px;background-color: #4a4f60;border-radius: 50%;position: absolute;margin-top: 68px;margin-left: 82px;}
+.style_status_title {color: white;padding-left: 20px;}
+.style_status_li {margin-left: 40px;color: white;float: left;}
+.text_center_piechart {color: white; padding-top: 25%;  background-color: transparent;}
+.text_under_piechart1 {position:absolute;float: left;color:white;padding-left: 40px;padding-top: 250px;}
+.text_under_piechart2 {position:absolute;float: left;color:white;padding-left: 210px;padding-top: 250px;}
+#texts {color:white;background-color: red;}
+
+
+.style_alert_message {position: relative;visibility: hidden;top:100px;padding: 20px;background-color: transparent;color: #f46666;border: 1px solid #f46666;width: 40%;margin: auto;}
+.button_close_alert_message {margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;}
+
+
+
+#base_five_of_the_most_important_targets_of_the_this_time_in_my_life
+{
+  position:absolute;
+  width:600px;
+  height:506.50px;
+  background-color: transparent;
+  border:1px solid skyblue;
+  margin-left: 1300px;margin-top: 100px;border-radius: 5px;
+}

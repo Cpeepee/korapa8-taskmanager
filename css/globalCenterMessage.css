@@ -1,0 +1,275 @@
+#global_center_message
+{
+  color: white;
+  font-weight: bold;
+  visibility: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+
+  border-radius: 20px;
+/* background: linear-gradient(to bottom left, #a83c4c 0%, #fcc5b3 100%); */
+/* background: linear-gradient(to bottom right, #6aaa4c 0%, #a3d38d 100%); */
+/* background-color:transparent; */
+
+
+}
+#larg_button_close_global_center_message_area
+{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  visibility: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#close_button_gcm
+{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top:10px;
+  right:10px;
+  border-radius: 50%;
+  background-color: white;
+}
+#animation_box_gcm
+{
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  /* border: 2px dashed blue; */
+  margin-top: 20px;
+}
+
+#title_gcm
+{
+  color: #fcfcfc;
+  font-family: "Lato", sans-serif;
+  font-size:20px;
+
+    line-height: 17px;
+    vertical-align: baseline;
+    letter-spacing: 5px;
+    word-spacing: 0px;
+
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+
+
+}
+
+#message_gcm
+{
+  color: #383737;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        text-indent: 0px;
+}
+.code_gcm
+{
+  color: #d3d3d3;
+  font-family: "Lato", sans-serif;
+  font-size: 12.50px;
+  position: absolute;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-weight: 10000;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0px;
+}
+
+#button_gcm
+{
+  position: absolute;
+  background: #FCFCFC;
+  width: 50%;
+  height: 15%;
+  border-radius: 20px;
+  top: 80%;
+  left: 25%;
+  outline: 0;
+  border: none;
+  color:#a83c4c;
+  text-align: center;
+    vertical-align: middle;
+
+}
+
+#button_gcm:hover
+{
+  background: darken(#FCFCFC, 5%);
+  transform: scale(1.05);
+}
+
+#text_button_gcm
+{
+  /* color: #a83c4c; */
+  color:#6aaa4c;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  position: absolute;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+/*animation error gcm */
+#charecter_gcm
+{
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #FCFCFC;
+  position: relative;
+  animation-name: move_happy_gcm;
+  animation-duration: 0.5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+   border-radius:50%;
+   border:0.50px solid #777777;
+   box-shadow: 1px 1px 1px;
+}
+#charecter_show_gcm
+{
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  opacity: .5;
+  background: #777777;
+  left: 40%;
+  border-radius: 50%;
+  animation-name: move_shadow_happy_gcm;
+  animation-duration: 0.5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+}
+
+#eyes_left_gcm
+{
+  position:absolute;
+  margin-left:20px;
+  margin-top:30px;
+  width: 8px;
+  height:8px;
+  background-color:#777777;
+  border-radius:50%;
+}
+#eyes_right_gcm
+{
+  position:absolute;
+  margin-left:50px;
+  margin-top:30px;
+  width: 8px;
+  height:8px;
+  background-color:#777777;
+  border-radius:50%;
+}
+
+#mouth_angry_gcm
+{
+  visibility: hidden;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 20px;
+  border:2px solid;
+  border-color: #777777 transparent transparent transparent;
+  border-radius:50%;
+  border-radius: 150px 150px 0 0;
+  background-color: transparent;
+}
+
+#mouth_happy_gcm
+{
+  visibility: hidden;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  height: 10px;
+  width: 20px;
+  border:2px solid;
+  border-color: #777777 transparent transparent transparent;
+  border-radius:50%;
+  border-radius: 150px 150px 0 0;
+  background-color: transparent;
+  transform: translate(-50%, -100%) rotateX(180deg);
+}
+
+
+/* gogoli error
+-> hidden happy mounth and visible angry mounth,
+change anim-name to angry,
+change anim-name shadow to angry,
+change speed direction to 1.5s (charecter + shadow)
+#global_center_message -> background: linear-gradient(to bottom left, #a83c4c 0%, #fcc5b3 100%);
+#text_button_gcm ->   color: #a83c4c;
+#title_gcm -> "error!"
+#code_gcm -> code
+#message_gcm -> string
+*/
+@keyframes move_angry_gcm {from{left:30%;transform: rotate(0deg);}to{left:55%;transform: rotate(180deg);}}
+@keyframes move_shadow_angry_gcm {from{left:31%;}to{left:55%;}}
+
+
+
+
+/* gogoli happy
+-> hidden angry mounth and visible happy mounth,
+change anim-name to happy,
+change shadow anim-anme to happyshadow,
+change speed direction to 0.5s (charecter + shadow)
+#globalCenterMessage -> background: linear-gradient(to bottom right, #6aaa4c 0%, #a3d38d 100%);
+#text_button_gcm ->  color:#6aaa4c;
+#title_gcm -> "success!"
+#code_gcm -> code
+#message_gcm -> string
+*/
+@keyframes move_happy_gcm {from{left:160px;top:-15px;}to{left:160px;top:-1px;}}
+@keyframes move_shadow_happy_gcm {from{left:180px;  transform: scale(0.90);}to{left:180px;transform: scale(1.05);}}
