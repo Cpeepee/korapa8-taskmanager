@@ -34,30 +34,30 @@ SETP 5: goto /database/task and /database/target run init.php file for create da
 **NOTE: one database is for one year so if you want use many years, use postfix like** mydbname_**year2020**.
 
 # Dashboard
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-49.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-54.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-49.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-54.png)
 
 # Tasks
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-45-59.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-03.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-45-51.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-45-59.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-03.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-45-51.png)
 
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-47-08.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-47-08.png)
 
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-47-35.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-47-35.png)
 
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-48-24.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-51-32.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-48-24.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-51-32.png)
 
 
 # Targets
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-11.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-30.png)
-![screenshot-from-unknow-version](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-37.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-11.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-30.png)
+![screenshot-from-unknow-version](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/Screenshot%20from%202021-01-20%2004-46-37.png)
 
 
 
 
 # DONT MAKE MY MISTAKE AND DESIGN/CREATE/etc DATABASE LIKE THIS...
-![screenshot-trashdatabase](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/database-ss/db-1Screenshot%20from%202022-08-20%2005-07-45.png)
-![screenshot-trashdatabase](http://mewware.com/mewware/p-taskmanager-sss/version-unknown/database-ss/db-0Screenshot%20from%202022-08-20%2005-07-19.png)
+![screenshot-trashdatabase](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/database-ss/db-1Screenshot%20from%202022-08-20%2005-07-45.png)
+![screenshot-trashdatabase](http://senioradministrator.com/mewware/p-taskmanager-sss/version-unknown/database-ss/db-0Screenshot%20from%202022-08-20%2005-07-19.png)
